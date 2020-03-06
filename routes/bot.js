@@ -51,7 +51,6 @@ router.get('/sendmsg', async (req, res, next) => {
     }
 
     const data = await getTitleAndPrice(response);
-    console.log(data);
     //res.json(data);
 
     // send message
